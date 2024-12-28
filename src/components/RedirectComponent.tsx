@@ -80,7 +80,7 @@ export default function RedirectComponent() {
     try {
       if (exists) {
         // Redirect to existing configuration viewer
-        window.location.href = `http://localhost:3001/edit?${params}`;
+        window.location.href = `https://customizer.fieldmobi.ai/edit?${params}`;
       } else {
         // Redirect to chat interface for new configuration
         router.push(`/customize?${params}`);
